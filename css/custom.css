@@ -1,0 +1,103 @@
+body {
+    font-family: 'Helvetica', 'Arial', 'sans-serif';
+    color: #000;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #57626e;
+    color: #FFF;
+    padding: 20px;
+    font-family: 'Helvetica Neue Thin', 'Helvetica Neue', 'Helvetica', 'Arial', 'asans-serif';
+}
+
+#footer-note {
+    padding-bottom: 15px;
+    font-size: 0.85em;
+}
+
+#copyright {
+    text-align: left;
+    font-size: 0.85em;
+}
+
+#header {
+    background-color: #2E2F3B;
+}
+
+#header-inner {
+    display: flex;
+}
+
+.logo {
+    background-image: url('/images/logo.png');
+    width: 120px;
+    background-size: 110px 21px;
+}
+
+.logo-text {
+    color: #FFFFFF;
+    font-family: 'Helvetica Neue Thin', 'Helvetica Neue', 'Helvetica', 'Arial', 'asans-serif';
+    font-weight: lighter;
+    font-size: 27px;
+    white-space: nowrap;
+}
+
+.logo-display {
+    display: flex;
+    flex-grow: 1;
+}
+
+.icons-display {
+    align-self: center;
+}
+
+.article-title {
+    font-weight: normal;
+}
+
+.article-meta .article-author a {
+    color: #ee7600;
+}
+
+.article-author-img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+}
+
+.article-date {
+    float: none;
+    color: #989898;
+}
+
+.article-categories .article-category-link {
+    border-radius: 5px;
+    padding: 1px 4px 1px;
+    border: 1px solid #989898;
+    font-size: 12px;
+    color: #989898;
+    text-transform: lowercase;
+    margin-left: 2px;
+    border-bottom: 1px solid #989898;
+    white-space: nowrap;
+}
+
+.article-meta .article-categories a:hover {
+    border: 1px solid #ee7600;
+    color: #ee7600;
+}
+
+.calendar-img {
+    width: 15px;
+    height: 15px;
+    padding-left: 10px;
+}
+
+.github-img {
+    width: 28px;
+    height: 28px;
+}
